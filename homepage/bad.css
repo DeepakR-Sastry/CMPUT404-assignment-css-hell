@@ -1,0 +1,61 @@
+body {
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    height: 100%;
+}
+
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200pt;
+    background-color: black;
+    text-align: center;
+}
+
+#header{
+    color: red;
+    font-size: 4em;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    margin-bottom: 10pt;
+}
+
+#subheader{
+    color: red;
+    font-size: 2em;
+    font-style: italic;
+    font-family: Cambria, 'Times New Roman', serif
+}
+
+nav ul {
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    margin: 0;
+    background-color: gold;
+}
+
+nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+
+
+.content{
+    background-color: blue;
+    height: 100%;
+    margin: 0 15%;
+    padding-bottom: 50pt;
+    font-size: large;
+    color: blueviolet;
+}
+
+#sidebar {
+    height: 100%;
+    float: right;
+    background-color: #AAAAAA;
+    text-align: center;
+}
